@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D874F571E1246F20076322C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D874F561E1246F20076322C /* main.m */; };
+		3D874F5A1E1246F20076322C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D874F591E1246F20076322C /* AppDelegate.m */; };
+		3D874F5D1E1246F20076322C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D874F5C1E1246F20076322C /* ViewController.m */; };
+		3D874F601E1246F20076322C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D874F5E1E1246F20076322C /* Main.storyboard */; };
+		3D874F621E1246F20076322C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D874F611E1246F20076322C /* Assets.xcassets */; };
+		3D874F651E1246F20076322C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D874F631E1246F20076322C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D874F521E1246F20076322C /* ReplayKitTutorial-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReplayKitTutorial-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D874F561E1246F20076322C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D874F581E1246F20076322C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D874F591E1246F20076322C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D874F5B1E1246F20076322C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D874F5C1E1246F20076322C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D874F5F1E1246F20076322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D874F611E1246F20076322C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D874F641E1246F20076322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D874F661E1246F20076322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D874F4F1E1246F20076322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D874F491E1246F20076322C = {
+			isa = PBXGroup;
+			children = (
+				3D874F541E1246F20076322C /* ReplayKitTutorial-ObjC */,
+				3D874F531E1246F20076322C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D874F531E1246F20076322C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D874F521E1246F20076322C /* ReplayKitTutorial-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D874F541E1246F20076322C /* ReplayKitTutorial-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				3D874F581E1246F20076322C /* AppDelegate.h */,
+				3D874F591E1246F20076322C /* AppDelegate.m */,
+				3D874F5B1E1246F20076322C /* ViewController.h */,
+				3D874F5C1E1246F20076322C /* ViewController.m */,
+				3D874F5E1E1246F20076322C /* Main.storyboard */,
+				3D874F611E1246F20076322C /* Assets.xcassets */,
+				3D874F631E1246F20076322C /* LaunchScreen.storyboard */,
+				3D874F661E1246F20076322C /* Info.plist */,
+				3D874F551E1246F20076322C /* Supporting Files */,
+			);
+			path = "ReplayKitTutorial-ObjC";
+			sourceTree = "<group>";
+		};
+		3D874F551E1246F20076322C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D874F561E1246F20076322C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D874F511E1246F20076322C /* ReplayKitTutorial-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D874F691E1246F20076322C /* Build configuration list for PBXNativeTarget "ReplayKitTutorial-ObjC" */;
+			buildPhases = (
+				3D874F4E1E1246F20076322C /* Sources */,
+				3D874F4F1E1246F20076322C /* Frameworks */,
+				3D874F501E1246F20076322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReplayKitTutorial-ObjC";
+			productName = "ReplayKitTutorial-ObjC";
+			productReference = 3D874F521E1246F20076322C /* ReplayKitTutorial-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D874F4A1E1246F20076322C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "KyuJin Kim";
+				TargetAttributes = {
+					3D874F511E1246F20076322C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MMVTCXSS58;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D874F4D1E1246F20076322C /* Build configuration list for PBXProject "ReplayKitTutorial-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D874F491E1246F20076322C;
+			productRefGroup = 3D874F531E1246F20076322C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D874F511E1246F20076322C /* ReplayKitTutorial-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D874F501E1246F20076322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D874F651E1246F20076322C /* LaunchScreen.storyboard in Resources */,
+				3D874F621E1246F20076322C /* Assets.xcassets in Resources */,
+				3D874F601E1246F20076322C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D874F4E1E1246F20076322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D874F5D1E1246F20076322C /* ViewController.m in Sources */,
+				3D874F5A1E1246F20076322C /* AppDelegate.m in Sources */,
+				3D874F571E1246F20076322C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D874F5E1E1246F20076322C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D874F5F1E1246F20076322C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D874F631E1246F20076322C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D874F641E1246F20076322C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D874F671E1246F20076322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D874F681E1246F20076322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D874F6A1E1246F20076322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = "ReplayKitTutorial-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcp.rnd.ReplayKitTutorial-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D874F6B1E1246F20076322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = "ReplayKitTutorial-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcp.rnd.ReplayKitTutorial-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D874F4D1E1246F20076322C /* Build configuration list for PBXProject "ReplayKitTutorial-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D874F671E1246F20076322C /* Debug */,
+				3D874F681E1246F20076322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D874F691E1246F20076322C /* Build configuration list for PBXNativeTarget "ReplayKitTutorial-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D874F6A1E1246F20076322C /* Debug */,
+				3D874F6B1E1246F20076322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D874F4A1E1246F20076322C /* Project object */;
+}
