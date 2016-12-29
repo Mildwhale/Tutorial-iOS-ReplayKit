@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BroadcastUploadExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>BroadcastUploadExtensionUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>ReplayKitTutorial-ObjC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,31 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>3D874F511E1246F20076322C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D874F6F1E1263190076322C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D874F881E1263230076322C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D874F961E1263230076322C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D8750081E1347980076322C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3D8750161E1347980076322C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

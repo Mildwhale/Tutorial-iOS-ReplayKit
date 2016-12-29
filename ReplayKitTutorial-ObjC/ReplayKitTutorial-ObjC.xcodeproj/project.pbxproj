@@ -13,7 +13,49 @@
 		3D874F601E1246F20076322C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D874F5E1E1246F20076322C /* Main.storyboard */; };
 		3D874F621E1246F20076322C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D874F611E1246F20076322C /* Assets.xcassets */; };
 		3D874F651E1246F20076322C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D874F631E1246F20076322C /* LaunchScreen.storyboard */; };
+		3D87500A1E1347980076322C /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D874F721E1263190076322C /* ReplayKit.framework */; };
+		3D87500E1E1347980076322C /* MovieClipHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87500D1E1347980076322C /* MovieClipHandler.m */; };
+		3D8750111E1347980076322C /* SampleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8750101E1347980076322C /* SampleHandler.m */; };
+		3D8750181E1347980076322C /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D874F721E1263190076322C /* ReplayKit.framework */; };
+		3D8750191E1347980076322C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D874F741E1263190076322C /* UIKit.framework */; };
+		3D87501D1E1347980076322C /* BroadcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D87501C1E1347980076322C /* BroadcastViewController.m */; };
+		3D8750201E1347980076322C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D87501E1E1347980076322C /* MainInterface.storyboard */; };
+		3D8750241E1347980076322C /* BroadcastUploadExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3D8750171E1347980076322C /* BroadcastUploadExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3D8750271E1347980076322C /* BroadcastUploadExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3D8750091E1347980076322C /* BroadcastUploadExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DBBC1BF1E13B5E500649641 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBBC1BE1E13B5E500649641 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8750221E1347980076322C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D874F4A1E1246F20076322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8750161E1347980076322C;
+			remoteInfo = BroadcastUploadExtensionUI;
+		};
+		3D8750251E1347980076322C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D874F4A1E1246F20076322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8750081E1347980076322C;
+			remoteInfo = BroadcastUploadExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D874F841E1263190076322C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3D8750241E1347980076322C /* BroadcastUploadExtensionUI.appex in Embed App Extensions */,
+				3D8750271E1347980076322C /* BroadcastUploadExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3D874F521E1246F20076322C /* ReplayKitTutorial-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReplayKitTutorial-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +68,23 @@
 		3D874F611E1246F20076322C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D874F641E1246F20076322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D874F661E1246F20076322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D874F721E1263190076322C /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		3D874F741E1263190076322C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D8750091E1347980076322C /* BroadcastUploadExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BroadcastUploadExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D87500C1E1347980076322C /* MovieClipHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieClipHandler.h; sourceTree = "<group>"; };
+		3D87500D1E1347980076322C /* MovieClipHandler.m */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = MovieClipHandler.m; sourceTree = "<group>"; };
+		3D87500F1E1347980076322C /* SampleHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleHandler.h; sourceTree = "<group>"; };
+		3D8750101E1347980076322C /* SampleHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleHandler.m; sourceTree = "<group>"; };
+		3D8750121E1347980076322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8750171E1347980076322C /* BroadcastUploadExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BroadcastUploadExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D87501B1E1347980076322C /* BroadcastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BroadcastViewController.h; sourceTree = "<group>"; };
+		3D87501C1E1347980076322C /* BroadcastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroadcastViewController.m; sourceTree = "<group>"; };
+		3D87501F1E1347980076322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3D8750211E1347980076322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D87502E1E1358930076322C /* BroadcastUploadExtensionUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BroadcastUploadExtensionUI.entitlements; sourceTree = "<group>"; };
+		3DBBC1BC1E1389B400649641 /* ReplayKitTutorial-ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ReplayKitTutorial-ObjC.entitlements"; sourceTree = "<group>"; };
+		3DBBC1BD1E1389E100649641 /* BroadcastUploadExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BroadcastUploadExtension.entitlements; sourceTree = "<group>"; };
+		3DBBC1BE1E13B5E500649641 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +92,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBBC1BF1E13B5E500649641 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8750061E1347980076322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87500A1E1347980076322C /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8750141E1347980076322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8750181E1347980076322C /* ReplayKit.framework in Frameworks */,
+				3D8750191E1347980076322C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				3D874F541E1246F20076322C /* ReplayKitTutorial-ObjC */,
+				3D87500B1E1347980076322C /* BroadcastUploadExtension */,
+				3D87501A1E1347980076322C /* BroadcastUploadExtensionUI */,
+				3D874F711E1263190076322C /* Frameworks */,
 				3D874F531E1246F20076322C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				3D874F521E1246F20076322C /* ReplayKitTutorial-ObjC.app */,
+				3D8750091E1347980076322C /* BroadcastUploadExtension.appex */,
+				3D8750171E1347980076322C /* BroadcastUploadExtensionUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +140,7 @@
 		3D874F541E1246F20076322C /* ReplayKitTutorial-ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3DBBC1BC1E1389B400649641 /* ReplayKitTutorial-ObjC.entitlements */,
 				3D874F581E1246F20076322C /* AppDelegate.h */,
 				3D874F591E1246F20076322C /* AppDelegate.m */,
 				3D874F5B1E1246F20076322C /* ViewController.h */,
@@ -79,6 +162,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3D874F711E1263190076322C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBC1BE1E13B5E500649641 /* MobileCoreServices.framework */,
+				3D874F721E1263190076322C /* ReplayKit.framework */,
+				3D874F741E1263190076322C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D87500B1E1347980076322C /* BroadcastUploadExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3DBBC1BD1E1389E100649641 /* BroadcastUploadExtension.entitlements */,
+				3D87500C1E1347980076322C /* MovieClipHandler.h */,
+				3D87500D1E1347980076322C /* MovieClipHandler.m */,
+				3D87500F1E1347980076322C /* SampleHandler.h */,
+				3D8750101E1347980076322C /* SampleHandler.m */,
+				3D8750121E1347980076322C /* Info.plist */,
+			);
+			path = BroadcastUploadExtension;
+			sourceTree = "<group>";
+		};
+		3D87501A1E1347980076322C /* BroadcastUploadExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				3D87502E1E1358930076322C /* BroadcastUploadExtensionUI.entitlements */,
+				3D87501B1E1347980076322C /* BroadcastViewController.h */,
+				3D87501C1E1347980076322C /* BroadcastViewController.m */,
+				3D87501E1E1347980076322C /* MainInterface.storyboard */,
+				3D8750211E1347980076322C /* Info.plist */,
+			);
+			path = BroadcastUploadExtensionUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +207,52 @@
 				3D874F4E1E1246F20076322C /* Sources */,
 				3D874F4F1E1246F20076322C /* Frameworks */,
 				3D874F501E1246F20076322C /* Resources */,
+				3D874F841E1263190076322C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3D8750231E1347980076322C /* PBXTargetDependency */,
+				3D8750261E1347980076322C /* PBXTargetDependency */,
 			);
 			name = "ReplayKitTutorial-ObjC";
 			productName = "ReplayKitTutorial-ObjC";
 			productReference = 3D874F521E1246F20076322C /* ReplayKitTutorial-ObjC.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3D8750081E1347980076322C /* BroadcastUploadExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D87502B1E1347990076322C /* Build configuration list for PBXNativeTarget "BroadcastUploadExtension" */;
+			buildPhases = (
+				3D8750051E1347980076322C /* Sources */,
+				3D8750061E1347980076322C /* Frameworks */,
+				3D8750071E1347980076322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BroadcastUploadExtension;
+			productName = BroadcastUploadExtension;
+			productReference = 3D8750091E1347980076322C /* BroadcastUploadExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3D8750161E1347980076322C /* BroadcastUploadExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8750281E1347990076322C /* Build configuration list for PBXNativeTarget "BroadcastUploadExtensionUI" */;
+			buildPhases = (
+				3D8750131E1347980076322C /* Sources */,
+				3D8750141E1347980076322C /* Frameworks */,
+				3D8750151E1347980076322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BroadcastUploadExtensionUI;
+			productName = BroadcastUploadExtensionUI;
+			productReference = 3D8750171E1347980076322C /* BroadcastUploadExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -112,6 +267,31 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MMVTCXSS58;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3D8750081E1347980076322C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MMVTCXSS58;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					3D8750161E1347980076322C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MMVTCXSS58;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -129,6 +309,8 @@
 			projectRoot = "";
 			targets = (
 				3D874F511E1246F20076322C /* ReplayKitTutorial-ObjC */,
+				3D8750081E1347980076322C /* BroadcastUploadExtension */,
+				3D8750161E1347980076322C /* BroadcastUploadExtensionUI */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +323,21 @@
 				3D874F651E1246F20076322C /* LaunchScreen.storyboard in Resources */,
 				3D874F621E1246F20076322C /* Assets.xcassets in Resources */,
 				3D874F601E1246F20076322C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8750071E1347980076322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8750151E1347980076322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8750201E1347980076322C /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +354,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D8750051E1347980076322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8750111E1347980076322C /* SampleHandler.m in Sources */,
+				3D87500E1E1347980076322C /* MovieClipHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8750131E1347980076322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D87501D1E1347980076322C /* BroadcastViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8750231E1347980076322C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8750161E1347980076322C /* BroadcastUploadExtensionUI */;
+			targetProxy = 3D8750221E1347980076322C /* PBXContainerItemProxy */;
+		};
+		3D8750261E1347980076322C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8750081E1347980076322C /* BroadcastUploadExtension */;
+			targetProxy = 3D8750251E1347980076322C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3D874F5E1E1246F20076322C /* Main.storyboard */ = {
@@ -174,6 +401,14 @@
 				3D874F641E1246F20076322C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D87501E1E1347980076322C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D87501F1E1347980076322C /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,10 +508,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ReplayKitTutorial-ObjC/ReplayKitTutorial-ObjC.entitlements";
 				DEVELOPMENT_TEAM = MMVTCXSS58;
 				INFOPLIST_FILE = "ReplayKitTutorial-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gcp.rnd.ReplayKitTutorial-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcp.rnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -285,11 +521,62 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ReplayKitTutorial-ObjC/ReplayKitTutorial-ObjC.entitlements";
 				DEVELOPMENT_TEAM = MMVTCXSS58;
 				INFOPLIST_FILE = "ReplayKitTutorial-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gcp.rnd.ReplayKitTutorial-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcp.rnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D8750291E1347990076322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = BroadcastUploadExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcp.rnd.BroadcastUploadExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3D87502A1E1347990076322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = BroadcastUploadExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcp.rnd.BroadcastUploadExtensionUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D87502C1E1347990076322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BroadcastUploadExtension/BroadcastUploadExtension.entitlements;
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = BroadcastUploadExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcp.rnd.BroadcastUploadExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3D87502D1E1347990076322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BroadcastUploadExtension/BroadcastUploadExtension.entitlements;
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = BroadcastUploadExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcp.rnd.BroadcastUploadExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -312,6 +599,25 @@
 				3D874F6B1E1246F20076322C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8750281E1347990076322C /* Build configuration list for PBXNativeTarget "BroadcastUploadExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8750291E1347990076322C /* Debug */,
+				3D87502A1E1347990076322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D87502B1E1347990076322C /* Build configuration list for PBXNativeTarget "BroadcastUploadExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D87502C1E1347990076322C /* Debug */,
+				3D87502D1E1347990076322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

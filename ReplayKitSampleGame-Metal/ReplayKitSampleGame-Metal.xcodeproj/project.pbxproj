@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D874FBB1E126CC10076322C /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D874FBA1E126CC10076322C /* Metal.framework */; };
+		3D874FBD1E126CC10076322C /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D874FBC1E126CC10076322C /* MetalKit.framework */; };
+		3D874FBF1E126CC10076322C /* ModelIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D874FBE1E126CC10076322C /* ModelIO.framework */; };
+		3D874FC31E126CC10076322C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D874FC21E126CC10076322C /* main.m */; };
+		3D874FC61E126CC10076322C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D874FC51E126CC10076322C /* AppDelegate.m */; };
+		3D874FC91E126CC10076322C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D874FC81E126CC10076322C /* GameViewController.m */; };
+		3D874FCB1E126CC10076322C /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3D874FCA1E126CC10076322C /* Shaders.metal */; };
+		3D874FCF1E126CC10076322C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D874FCD1E126CC10076322C /* Main.storyboard */; };
+		3D874FD11E126CC10076322C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D874FD01E126CC10076322C /* Assets.xcassets */; };
+		3D874FD41E126CC10076322C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D874FD21E126CC10076322C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D874FB71E126CC10076322C /* ReplayKitSampleGame-Metal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReplayKitSampleGame-Metal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D874FBA1E126CC10076322C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		3D874FBC1E126CC10076322C /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		3D874FBE1E126CC10076322C /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
+		3D874FC21E126CC10076322C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D874FC41E126CC10076322C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D874FC51E126CC10076322C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D874FC71E126CC10076322C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3D874FC81E126CC10076322C /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		3D874FCA1E126CC10076322C /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		3D874FCC1E126CC10076322C /* SharedStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedStructures.h; sourceTree = "<group>"; };
+		3D874FCE1E126CC10076322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D874FD01E126CC10076322C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D874FD31E126CC10076322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D874FD51E126CC10076322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D874FB41E126CC10076322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D874FBF1E126CC10076322C /* ModelIO.framework in Frameworks */,
+				3D874FBB1E126CC10076322C /* Metal.framework in Frameworks */,
+				3D874FBD1E126CC10076322C /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D874FAE1E126CC10076322C = {
+			isa = PBXGroup;
+			children = (
+				3D874FC01E126CC10076322C /* ReplayKitSampleGame-Metal */,
+				3D874FB91E126CC10076322C /* Frameworks */,
+				3D874FB81E126CC10076322C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D874FB81E126CC10076322C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D874FB71E126CC10076322C /* ReplayKitSampleGame-Metal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D874FB91E126CC10076322C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D874FBA1E126CC10076322C /* Metal.framework */,
+				3D874FBC1E126CC10076322C /* MetalKit.framework */,
+				3D874FBE1E126CC10076322C /* ModelIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D874FC01E126CC10076322C /* ReplayKitSampleGame-Metal */ = {
+			isa = PBXGroup;
+			children = (
+				3D874FC41E126CC10076322C /* AppDelegate.h */,
+				3D874FC51E126CC10076322C /* AppDelegate.m */,
+				3D874FC71E126CC10076322C /* GameViewController.h */,
+				3D874FC81E126CC10076322C /* GameViewController.m */,
+				3D874FCA1E126CC10076322C /* Shaders.metal */,
+				3D874FCC1E126CC10076322C /* SharedStructures.h */,
+				3D874FCD1E126CC10076322C /* Main.storyboard */,
+				3D874FD01E126CC10076322C /* Assets.xcassets */,
+				3D874FD21E126CC10076322C /* LaunchScreen.storyboard */,
+				3D874FD51E126CC10076322C /* Info.plist */,
+				3D874FC11E126CC10076322C /* Supporting Files */,
+			);
+			path = "ReplayKitSampleGame-Metal";
+			sourceTree = "<group>";
+		};
+		3D874FC11E126CC10076322C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D874FC21E126CC10076322C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D874FB61E126CC10076322C /* ReplayKitSampleGame-Metal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D874FD81E126CC10076322C /* Build configuration list for PBXNativeTarget "ReplayKitSampleGame-Metal" */;
+			buildPhases = (
+				3D874FB31E126CC10076322C /* Sources */,
+				3D874FB41E126CC10076322C /* Frameworks */,
+				3D874FB51E126CC10076322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReplayKitSampleGame-Metal";
+			productName = "ReplayKitSampleGame-Metal";
+			productReference = 3D874FB71E126CC10076322C /* ReplayKitSampleGame-Metal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D874FAF1E126CC10076322C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "KyuJin Kim";
+				TargetAttributes = {
+					3D874FB61E126CC10076322C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MMVTCXSS58;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D874FB21E126CC10076322C /* Build configuration list for PBXProject "ReplayKitSampleGame-Metal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D874FAE1E126CC10076322C;
+			productRefGroup = 3D874FB81E126CC10076322C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D874FB61E126CC10076322C /* ReplayKitSampleGame-Metal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D874FB51E126CC10076322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D874FD41E126CC10076322C /* LaunchScreen.storyboard in Resources */,
+				3D874FD11E126CC10076322C /* Assets.xcassets in Resources */,
+				3D874FCF1E126CC10076322C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D874FB31E126CC10076322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D874FCB1E126CC10076322C /* Shaders.metal in Sources */,
+				3D874FC61E126CC10076322C /* AppDelegate.m in Sources */,
+				3D874FC91E126CC10076322C /* GameViewController.m in Sources */,
+				3D874FC31E126CC10076322C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D874FCD1E126CC10076322C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D874FCE1E126CC10076322C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D874FD21E126CC10076322C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D874FD31E126CC10076322C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D874FD61E126CC10076322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D874FD71E126CC10076322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D874FD91E126CC10076322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = "ReplayKitSampleGame-Metal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcp.test.ReplayKitSampleGame-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D874FDA1E126CC10076322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MMVTCXSS58;
+				INFOPLIST_FILE = "ReplayKitSampleGame-Metal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gcp.test.ReplayKitSampleGame-Metal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D874FB21E126CC10076322C /* Build configuration list for PBXProject "ReplayKitSampleGame-Metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D874FD61E126CC10076322C /* Debug */,
+				3D874FD71E126CC10076322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D874FD81E126CC10076322C /* Build configuration list for PBXNativeTarget "ReplayKitSampleGame-Metal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D874FD91E126CC10076322C /* Debug */,
+				3D874FDA1E126CC10076322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D874FAF1E126CC10076322C /* Project object */;
+}
