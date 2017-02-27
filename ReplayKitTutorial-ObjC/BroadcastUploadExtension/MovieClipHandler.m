@@ -14,9 +14,8 @@
 - (void)processMP4ClipWithURL:(NSURL *)mp4ClipURL setupInfo:(NSDictionary<NSString *,NSObject *> *)setupInfo finished:(BOOL)finished {
    
    NSURL *endpointURL = [NSURL URLWithString:(NSString *)setupInfo[@"endpointURL"]];
+//   [endpointURL URLByAppendingPathComponent:(NSString *)setupInfo[@"userID"]];
    
-   NSLog(@"EndPointURL = %@", endpointURL);
-
    // the boundary string : a random string, that will not repeat in post data, to separate post data fields.
    NSString *BoundaryConstant = @"----------V2ymHFg03ehbqgZCaKO6jy";
    
@@ -63,6 +62,7 @@
    [[session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
       if (error) {
          // Handle the error locally
+         NSLog(@"%@", error.localizedDescription);
       }
       
       // Update broadcast settings

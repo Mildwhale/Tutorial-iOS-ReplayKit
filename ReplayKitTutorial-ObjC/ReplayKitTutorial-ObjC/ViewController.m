@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <ReplayKit/ReplayKit.h>
 
-@interface ViewController () <RPScreenRecorderDelegate, RPPreviewViewControllerDelegate, RPBroadcastActivityViewControllerDelegate>
+@interface ViewController () <RPScreenRecorderDelegate, RPPreviewViewControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *indicator;
 @end
 
@@ -76,22 +76,6 @@
     }
 }
 
-- (IBAction)liveStreaming:(id)sender
-{
-    [RPBroadcastActivityViewController loadBroadcastActivityViewControllerWithHandler:^(RPBroadcastActivityViewController * _Nullable broadcastActivityViewController, NSError * _Nullable error) {
-        if (error) {
-            NSLog(@"%@", error.localizedDescription);
-            return;
-        }
-        
-        broadcastActivityViewController.delegate = self;
-        
-        [self presentViewController:broadcastActivityViewController animated:YES completion:^{
-            
-        }];
-    }];
-}
-
 #pragma mark - RPScreenRecoder Delegate
 - (void)screenRecorder:(RPScreenRecorder *)screenRecorder didStopRecordingWithError:(NSError *)error previewViewController:(nullable RPPreviewViewController *)previewViewController
 {
@@ -126,11 +110,5 @@
     [previewController dismissViewControllerAnimated:YES completion:^{
         
     }];
-}
-
-#pragma mark - RPBroadCastActivity Delegate
-- (void)broadcastActivityViewController:(RPBroadcastActivityViewController *)broadcastActivityViewController didFinishWithBroadcastController:(nullable RPBroadcastController *)broadcastController error:(nullable NSError *)error
-{
-    
 }
 @end

@@ -16,7 +16,7 @@
 
 - (IBAction)finish2:(id)sender
 {
-    [self userDidFinishSetup:@"http://10.10.22.60/service/upload"];
+    [self userDidFinishSetup:@"rtmp://a.rtmp.youtube.com/live2"];
 }
 
 // Called when the user has finished interacting with the view controller and a broadcast stream can start
@@ -26,7 +26,7 @@
     NSURL *broadcastURL = [NSURL URLWithString:@"http://broadcastURL_example/stream1"];
      
     // Service specific broadcast data example which will be supplied to the process extension during broadcast
-    NSString *userID = @"user1";
+    NSString *userID = @"czux-zgch-mfxc-f62t";
     NSDictionary *setupInfo = @{ @"userID" : userID, @"endpointURL" : serverURL };
     
     // Set broadcast settings

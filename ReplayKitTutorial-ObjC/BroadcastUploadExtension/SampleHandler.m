@@ -36,14 +36,12 @@
     switch (sampleBufferType) {
         case RPSampleBufferTypeVideo:
             // Handle audio sample buffer
+            NSLog(@"Video");
             break;
         case RPSampleBufferTypeAudioApp:
             // Handle audio sample buffer for app audio
+            NSLog(@"Audio");
             break;
-        case RPSampleBufferTypeAudioMic:
-            // Handle audio sample buffer for mic audio
-            break;
-            
         default:
             break;
     }
