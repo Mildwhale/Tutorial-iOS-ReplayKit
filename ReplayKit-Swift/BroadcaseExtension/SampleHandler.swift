@@ -42,14 +42,13 @@ class SampleHandler: RPBroadcastSampleHandler {
     }
     
     override func processSampleBuffer(_ sampleBuffer: CMSampleBuffer, with sampleBufferType: RPSampleBufferType) {
-        print("processSampleBuffer");
         switch sampleBufferType {
         case .video:
             if let description:CMVideoFormatDescription = CMSampleBufferGetFormatDescription(sampleBuffer) {
                 let dimensions:CMVideoDimensions = CMVideoFormatDescriptionGetDimensions(description)
                 broadcaster.stream.videoSettings = [
                     "width": dimensions.width,
-                    "height": dimensions.height ,
+                    "height": dimensions.height,
                     "profileLevel": kVTProfileLevel_H264_Baseline_AutoLevel,
                 ]
             }

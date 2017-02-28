@@ -25,11 +25,19 @@ class BroadcastViewController: UIViewController {
             "endpointURL" : endpointURL as NSString,
             "streamName" : streamName as NSString,
         ]
+        
+        let bitrate = 2500
+        let width = 1280
+        let height = 720
 
         let broadcastConfiguration:RPBroadcastConfiguration = RPBroadcastConfiguration()
         broadcastConfiguration.clipDuration = 2
         broadcastConfiguration.videoCompressionProperties = [
+            AVVideoCodecKey: AVVideoCodecH264 as NSSecureCoding & NSObjectProtocol,
+            AVVideoWidthKey: width as NSSecureCoding & NSObjectProtocol,
+            AVVideoHeightKey: height as NSSecureCoding & NSObjectProtocol,
             AVVideoProfileLevelKey: AVVideoProfileLevelH264BaselineAutoLevel as NSSecureCoding & NSObjectProtocol,
+            AVVideoAverageBitRateKey: (bitrate * 1024) as NSSecureCoding & NSObjectProtocol,
         ]
 
         self.extensionContext?.completeRequest(
